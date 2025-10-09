@@ -1,0 +1,79 @@
+{
+	"code": 200,
+	"success": true,
+	"data": [
+		{
+			"id": 99987,
+			"stock_id": "AMZN",
+			"quantity": 9999,
+			"avg": "150.50",
+			"createdAt": "2025-03-20T20:36:14.000Z",
+			"updatedAt": "2025-08-05T08:15:53.000Z",
+			"company": {
+				"name": "Amazon.com, Inc.",
+				"symbol": "AMZN"
+			}
+		},
+		{
+			"id": 99986,
+			"stock_id": "GOOG",
+			"quantity": 10000,
+			"avg": "130.13",
+			"createdAt": "2025-02-11T20:04:55.000Z",
+			"updatedAt": "2025-09-16T09:38:45.000Z",
+			"company": {
+				"name": "Alphabet Inc.",
+				"symbol": "GOOG"
+			}
+		},
+		{
+			"id": 99985,
+			"stock_id": "META",
+			"quantity": 20000,
+			"avg": "505.55",
+			"createdAt": "2025-03-18T18:40:36.000Z",
+			"updatedAt": "2025-08-05T08:15:52.000Z",
+			"company": {
+				"name": "Meta Platforms, Inc.",
+				"symbol": "META"
+			}
+		},
+		{
+			"id": 99984,
+			"stock_id": "MSFT",
+			"quantity": 10000,
+			"avg": "381.81",
+			"createdAt": "2025-03-16T23:29:31.000Z",
+			"updatedAt": "2025-07-20T19:32:24.000Z",
+			"company": {
+				"name": "Microsoft Corporation",
+				"symbol": "MSFT"
+			}
+		},
+		{
+			"id": 99983,
+			"stock_id": "NVDA",
+			"quantity": 50000,
+			"avg": "105.00",
+			"createdAt": "2025-02-11T20:05:02.000Z",
+			"updatedAt": "2025-08-29T07:54:57.000Z",
+			"company": {
+				"name": "NVIDIA Corporation",
+				"symbol": "NVDA"
+			}
+		},
+		{
+			"id": 99982,
+			"stock_id": "TSLA",
+			"quantity": 30000,
+			"avg": "200",
+			"createdAt": "2025-02-11T20:05:08.000Z",
+			"updatedAt": "2025-09-17T03:20:29.000Z",
+			"company": {
+				"name": "Tesla, Inc.",
+				"symbol": "TSLA"
+			}
+		}
+	],
+	"message": "成功"
+}

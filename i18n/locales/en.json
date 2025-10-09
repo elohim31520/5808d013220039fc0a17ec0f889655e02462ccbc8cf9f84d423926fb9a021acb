@@ -1,0 +1,246 @@
+{
+	"home": {
+		"title": "Market Overview",
+		"meta_title": "Homepage - UrTrade",
+		"meta_description": "View the latest market dynamics, heat maps, and market breadth data to fully understand US stock market trends."
+	},
+	"meta": {
+		"default_title": "UrTrade - Your Smart US Stock Investment Partner",
+		"default_description": "UrTrade is a platform that provides US stock market data, portfolio tracking, and real-time market trend analysis."
+	},
+	"company_metrics": {
+		"pe_forwards_notice": "What is PE Forwards? Forward Price-to-Earnings (FPE) is a projection of a company's P/E ratio for the next year, used to determine if the current stock price is overvalued or undervalued for the coming year. It is a forward-looking valuation tool that helps investors assess whether a company's stock is a worthwhile investment from a 'future' perspective.",
+		"pe_forwards_title": "PE Forwards",
+		"login_to_see_data": "Click here to log in and view complete data",
+		"pe_history_title": "Historical PE",
+		"eps_notice": "What is EPS (Earnings Per Share)? EPS is the earnings generated per share of a company's common stock. It is a financial indicator calculated by dividing the company's net profit by the number of outstanding common shares, used to measure the profitability of each share of stock.",
+		"feps_title": "Future Estimated EPS",
+		"eps_history_title": "Historical EPS",
+		"volume_title": "Volume",
+		"eps_comparison": "EPS Comparison"
+	},
+	"my": {
+		"cash": "Cash",
+		"portfolio": "Portfolio",
+		"update_balance": "Refresh $",
+		"change_password": "Chg Pwd",
+		"login": "Login",
+		"my_portfolio": "My Portfolio",
+		"login_to_create_portfolio": "Login to create your portfolio"
+	},
+	"login": {
+		"login": "Login",
+		"account": "Account",
+		"password": "Password",
+		"enter_account": "Please enter your account",
+		"enter_password": "Please enter your password",
+		"please_fill_account": "Please fill in your account",
+		"please_fill_password": "Please fill in your password",
+		"register": "Register",
+		"forgot_password": "Forgot password?",
+		"login_success": "Login successful",
+		"google_login_success": "Google login successful",
+		"google_login_fail": "Google login failed"
+	},
+	"companies": {
+		"title": "Companies"
+	},
+	"portfolio": {
+		"my_portfolio": "My Portfolio",
+		"login_for_portfolio": "The following is an example. Log in to create your own portfolio.",
+		"notice": "Note: The average price of holdings here may be calculated differently than your brokerage. Brokerages may use FIFO/LIFO, while we use average cost.",
+		"holding_details": "Holding Details",
+		"chart_analysis": "Chart Analysis",
+		"quantity": "Quantity",
+		"average_price": "Average Price",
+		"total_value": "Total Value",
+		"update": "Update",
+		"delete": "Delete",
+		"loading_or_no_holding": "Loading data or no holdings...",
+		"confirm": "Confirm",
+		"confirm_delete": "Are you sure you want to delete?",
+		"missing_item_id": "Missing item ID, cannot delete",
+		"delete_success": "Deleted successfully"
+	},
+	"transaction": {
+		"stock_id": "Symbol",
+		"enter_stock_id": "Please enter stock symbol",
+		"transaction_type": "Type",
+		"buy": "Buy",
+		"sell": "Sell",
+		"quantity": "Quantity",
+		"enter_quantity": "Please enter transaction quantity",
+		"enter_positive_integer": "Please enter a positive integer",
+		"price": "Price",
+		"enter_price": "Please enter transaction price",
+		"enter_correct_price_format": "Please enter the correct price format",
+		"transaction_date": "Date",
+		"select_transaction_date": "Please select transaction date",
+		"record": "Record",
+		"upload_screenshot": "Upload Screenshot to Record",
+		"please_login_first": "Please log in first",
+		"transaction_saved": "Transaction record saved",
+		"check_input_data": "Please check your input"
+	},
+	"sidemenu": {
+		"home": "Home",
+		"about": "About",
+		"add_record": "Add Record",
+		"my_records": "My Records",
+		"my_portfolio": "My Portfolio",
+		"stock_list": "Stock List",
+		"hot_stocks": "Hot Stocks",
+		"market_indicators": "Market Indicators",
+		"todays_volatility": "Today's Volatility",
+		"login": "Login",
+		"register": "Register",
+		"logout": "Logout"
+	},
+	"footer": {
+		"home": "Home",
+		"portfolio": "Portfolio",
+		"record": "Record",
+		"info": "Info",
+		"my": "My"
+	},
+	"image_to_json": {
+		"title": "Upload your transaction screenshot to automatically save transaction records",
+		"notice_title": "Please follow the steps below:",
+		"step1": "1. Click the button below to copy the prompt.",
+		"step2": "2. Choose an AI service and go to its website.",
+		"step3": "3. Paste the prompt and your transaction screenshot to get the JSON data.",
+		"step4": "4. Paste the JSON data returned by the AI back to this page and submit.",
+		"copy_prompt_title": "1. Copy Prompt",
+		"copied": "Copied",
+		"copy": "Copy",
+		"go_to_ai_service": "2. Go to AI Service",
+		"paste_json_title": "3. Paste the JSON data returned by the AI",
+		"paste_json_placeholder": "Please paste the JSON array data returned by the AI service here",
+		"saving": "Saving...",
+		"submit_and_save": "Submit and Save",
+		"prompt_text": "Please analyze the transaction records in the image and convert them to the following JSON array format. Ensure that stock_id is the correct stock symbol, transaction_type can only be 'buy' or 'sell', quantity and price should be numbers, and transaction_date format is 'YYYY-MM-DD'. If the image content is irrelevant or the data is incomplete, please return an empty array [].",
+		"json_format_example": "JSON Format Example:",
+		"fill_transaction_data": "Please fill in the transaction data.",
+		"login_first": "Please log in first",
+		"incorrect_data_format": "Incorrect data format, it must be an array.",
+		"successfully_recorded": "Successfully recorded {count} transactions.",
+		"submission_failed": "Submission failed, please check the data format or network connection.",
+		"json_format_error": "JSON format error, please check your input."
+	},
+	"records": {
+		"transaction_records": "Transaction Records",
+		"stock_id": "Stock Symbol",
+		"buy": "Buy",
+		"sell": "Sell",
+		"quantity": "Quantity",
+		"price": "Price",
+		"update": "Update",
+		"delete": "Delete",
+		"confirm_title": "Confirm",
+		"confirm_delete_message": "Are you sure you want to delete?"
+	},
+	"change_password": {
+		"title": "Change Password",
+		"old_password": "Old Pwd",
+		"enter_old_password": "Please enter your old password",
+		"fill_old_password": "Please fill in your old password",
+		"new_password": "New Pwd",
+		"enter_new_password": "Please enter your new password",
+		"fill_new_password": "Please fill in your new password",
+		"password_rules": "New password must be 6-30 characters long and can only contain letters, numbers, or special symbols",
+		"confirm_new_password": "Confirm Pwd",
+		"enter_confirm_new_password": "Please enter your new password again",
+		"fill_confirm_new_password": "Please fill in the confirmation for the new password",
+		"password_mismatch": "The confirmation password does not match the new password",
+		"confirm_change": "Confirm Change",
+		"change_success": "Password changed successfully"
+	},
+	"register": {
+		"title": "Register",
+		"account": "Account",
+		"enter_account": "Please enter your account",
+		"fill_account": "Please fill in your account",
+		"email": "Email",
+		"enter_email": "Please enter your email",
+		"fill_email": "Please fill in your email",
+		"password": "Password",
+		"enter_password": "Please enter your password",
+		"fill_password": "Please fill in your password",
+		"confirm_password": "Confirm Password",
+		"enter_confirm_password": "Please enter your password again",
+		"password_mismatch": "The two passwords do not match",
+		"register": "Register",
+		"register_success": "Registration successful"
+	},
+	"avatar_generator": {
+		"title": "Cartoon Avatar Generator",
+		"subtitle": "Upload your photo to generate your exclusive cartoon-style virtual avatar",
+		"step1_title": "Step 1",
+		"step1_description": "Upload Image",
+		"step2_title": "Step 2",
+		"step2_description": "Generate Avatar",
+		"step3_title": "Complete",
+		"step3_description": "Download Avatar",
+		"upload_area_text": "Click here or drag an image to this area",
+		"supported_formats": "Supports JPG, PNG, WEBP formats",
+		"original_image": "Original Image",
+		"uploading_image": "Image uploading...",
+		"processing": "Processing...",
+		"ai_drawing": "AI is drawing...",
+		"generation_successful": "Generation Successful",
+		"avatar_pending": "Avatar pending generation",
+		"select_image": "Select Image",
+		"reselect": "Reselect",
+		"start_generation": "Start Generation",
+		"try_again": "Try Again",
+		"download_avatar": "Download Avatar",
+		"upload_image_file_please": "Please upload an image file",
+		"avatar_generation_successful": "Avatar generated successfully!",
+		"generation_failed": "Generation failed, please try again later",
+		"starting_download": "Starting download..."
+	},
+	"volatile_asset": {
+		"strong_stocks": "Strong Stocks",
+		"weak_stocks": "Weak Stocks"
+	},
+	"momentum_chart": {
+		"days_unit": "{count}D",
+		"title": "Market Momentum (last {days} days)"
+	},
+	"market_breadth": {
+		"title": "S&P 500 Advance/Decline Percentage:",
+		"advancers": "Advancers",
+		"decliners": "Decliners"
+	},
+	"update_usd_form_popup": {
+		"update_title": "Update Available USD Balance",
+		"add_title": "Add Available USD Balance",
+		"usd_balance_label": "USD Balance",
+		"usd_balance_placeholder": "Please enter available USD balance",
+		"correct_format_required": "Please enter the correct amount format",
+		"update_button": "Update",
+		"add_button": "Add",
+		"enter_balance_to_update": "Please enter the balance to update",
+		"update_success": "Update successful",
+		"add_success": "Add successful"
+	},
+	"transaction_form_popup": {
+		"update_holding": "Update Holding"
+	},
+	"see_more": {
+		"text": "See More"
+	},
+	"hot_companies": {
+		"explore_hot_companies": "Explore Hot Companies"
+	},
+	"about": {
+		"title": "About This Application",
+		"description": "This is a tool to help you manage your personal investment portfolio and analyze market data.",
+		"main_features": "Main Features:",
+		"feature1_title": "Transaction Recording and Tracking:",
+		"feature1_description": "Easily record every buy and sell operation for your stocks, funds, or other investment instruments. You can view your holdings, costs, and realized profits and losses at any time.",
+		"feature2_title": "Company Information Inquiry:",
+		"feature2_description": "Provides basic data inquiry for listed companies, such as key financial indicators like the Price-to-Earnings (PE) Ratio and Price-to-Book (PB) Ratio, to help you make more informed investment decisions.",
+		"conclusion": "We are committed to providing a simple, intuitive interface to make investment management and market analysis easier."
+	}
+}

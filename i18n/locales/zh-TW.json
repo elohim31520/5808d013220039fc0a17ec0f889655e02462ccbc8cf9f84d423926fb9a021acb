@@ -1,0 +1,246 @@
+{
+	"home": {
+		"title": "美股市場總覽",
+		"meta_title": "首頁 - UrTrade",
+		"meta_description": "查看最新的市場動態、熱力圖和市場寬度數據，全面了解美股市場趨勢。"
+	},
+	"meta": {
+		"default_title": "UrTrade - 您的智慧美股投資夥伴",
+		"default_description": "UrTrade 是一個提供美股市場數據、投資組合追蹤和即時市場趨勢分析的平台。"
+	},
+	"company_metrics": {
+		"pe_forwards_notice": "什麼是PE Forwards? 未來市盈率(FPE)是預測未來一年公司的市盈率，用以判斷當前股價對於未來一年是高估還是低估。這是一個前瞻性的估值工具，能幫助投資人從「未來」的角度來評估一家公司的股票是否值得投資。",
+		"pe_forwards_title": "未來市盈率 PE Forwards",
+		"login_to_see_data": "點我登入，以查看完整資料",
+		"pe_history_title": "歷史市盈率 PE",
+		"eps_notice": "什麼是EPS(每股盈餘)? EPS(每股盈餘)是公司每股普通股所賺取的盈餘，它是一個財務指標，計算方式為公司淨利潤除以流通在外的普通股數量，用來衡量公司每股股票的盈利能力。",
+		"feps_title": "未來預估市盈率 EPS",
+		"eps_history_title": "歷史每股盈餘 EPS",
+		"volume_title": "量能",
+		"eps_comparison": "EPS 比較"
+	},
+	"my": {
+		"cash": "現金",
+		"portfolio": "持倉",
+		"update_balance": "修改餘額",
+		"change_password": "修改密碼",
+		"login": "登入",
+		"my_portfolio": "我的投資組合",
+		"login_to_create_portfolio": "登入以創建我的投資組合"
+	},
+	"login": {
+		"login": "登入",
+		"account": "帳號",
+		"password": "密碼",
+		"enter_account": "請輸入帳號",
+		"enter_password": "請輸入密碼",
+		"please_fill_account": "請填寫帳號",
+		"please_fill_password": "請填寫密碼",
+		"register": "註冊",
+		"forgot_password": "忘記密碼？",
+		"login_success": "登入成功",
+		"google_login_success": "Google 登入成功",
+		"google_login_fail": "Google 登入失敗"
+	},
+	"companies": {
+		"title": "公司列表"
+	},
+	"portfolio": {
+		"my_portfolio": "我的投資組合",
+		"login_for_portfolio": "以下為示例，登入後創建屬於自己的投資組合。",
+		"notice": "注意：這裡持倉的均價與您的券商計算方式可能不同，券商是以FIFO LIFO計算均價，而我們是以平均成本計算均價。",
+		"holding_details": "持股詳情",
+		"chart_analysis": "圖表分析",
+		"quantity": "數量",
+		"average_price": "均價",
+		"total_value": "總值",
+		"update": "更新",
+		"delete": "刪除",
+		"loading_or_no_holding": "正在載入資料或無持股...",
+		"confirm": "確認",
+		"confirm_delete": "確定要刪除嗎？",
+		"missing_item_id": "缺少項目ID，無法刪除",
+		"delete_success": "刪除成功"
+	},
+	"transaction": {
+		"stock_id": "股票代號",
+		"enter_stock_id": "請輸入股票代號",
+		"transaction_type": "交易類型",
+		"buy": "買入",
+		"sell": "賣出",
+		"quantity": "數量",
+		"enter_quantity": "請輸入交易數量",
+		"enter_positive_integer": "請輸入正整數",
+		"price": "價格",
+		"enter_price": "請輸入交易價格",
+		"enter_correct_price_format": "請輸入正確的價格格式",
+		"transaction_date": "交易日期",
+		"select_transaction_date": "請選擇交易日期",
+		"record": "紀錄",
+		"upload_screenshot": "上傳截圖紀錄",
+		"please_login_first": "請先登入",
+		"transaction_saved": "交易紀錄已儲存",
+		"check_input_data": "請檢查輸入資料"
+	},
+	"sidemenu": {
+		"home": "首頁",
+		"about": "關於",
+		"add_record": "新增紀錄",
+		"my_records": "我的紀錄",
+		"my_portfolio": "我的投資組合",
+		"stock_list": "股票清單",
+		"hot_stocks": "熱門股票",
+		"market_indicators": "市場指標",
+		"todays_volatility": "今日股價變動",
+		"login": "登入",
+		"register": "註冊",
+		"logout": "登出"
+	},
+	"footer": {
+		"home": "首頁",
+		"portfolio": "投資組合",
+		"record": "紀錄",
+		"info": "資訊",
+		"my": "我的"
+	},
+	"image_to_json": {
+		"title": "上傳您的交易截圖，自動存儲交易紀錄",
+		"notice_title": "請依照以下步驟操作：",
+		"step1": "1. 點擊下方按鈕，複製提示指令。",
+		"step2": "2. 選擇一個 AI 服務並前往其網站。",
+		"step3": "3. 貼上指令和您的交易截圖，取得 JSON 資料。",
+		"step4": "4. 將 AI 回傳的 JSON 資料貼回此頁面並送出。",
+		"copy_prompt_title": "1. 複製提示指令 (Prompt)",
+		"copied": "已複製",
+		"copy": "複製",
+		"go_to_ai_service": "2. 前往 AI 服務",
+		"paste_json_title": "3. 貼上 AI 回傳的 JSON 資料",
+		"paste_json_placeholder": "請將 AI 服務回傳的 JSON 陣列資料貼在此處",
+		"saving": "儲存中...",
+		"submit_and_save": "送出儲存",
+		"prompt_text": "請分析圖片中的交易紀錄，並將其轉換為以下 JSON 陣列格式。請確保 stock_id 是正確的股票代碼，transaction_type 只能是 'buy' 或 'sell'，quantity 和 price 應為數字，transaction_date 格式為 'YYYY-MM-DD'。如果圖片內容不相關或資料不完整，請回傳一個空陣列 []。",
+		"json_format_example": "JSON 格式範例:",
+		"fill_transaction_data": "請填入交易資料。",
+		"login_first": "請先登入",
+		"incorrect_data_format": "資料格式不正確，必須是一個陣列。",
+		"successfully_recorded": "成功記錄 {count} 筆交易。",
+		"submission_failed": "提交失敗，請檢查資料格式或網路連線。",
+		"json_format_error": "JSON 格式錯誤，請檢查您的輸入。"
+	},
+	"records": {
+		"transaction_records": "交易紀錄",
+		"stock_id": "股票代號",
+		"buy": "買入",
+		"sell": "賣出",
+		"quantity": "數量",
+		"price": "價格",
+		"update": "更新",
+		"delete": "刪除",
+		"confirm_title": "確認",
+		"confirm_delete_message": "確定要刪除嗎？"
+	},
+	"change_password": {
+		"title": "修改密碼",
+		"old_password": "舊密碼",
+		"enter_old_password": "請輸入舊密碼",
+		"fill_old_password": "請填寫舊密碼",
+		"new_password": "新密碼",
+		"enter_new_password": "請輸入新密碼",
+		"fill_new_password": "請填寫新密碼",
+		"password_rules": "新密碼長度需為 6-30 個字元，且只能包含英文字母、數字或特殊符號",
+		"confirm_new_password": "確認新密碼",
+		"enter_confirm_new_password": "請再次輸入新密碼",
+		"fill_confirm_new_password": "請填寫確認新密碼",
+		"password_mismatch": "確認密碼與新密碼不符",
+		"confirm_change": "確認修改",
+		"change_success": "密碼修改成功"
+	},
+	"register": {
+		"title": "註冊",
+		"account": "帳號",
+		"enter_account": "請輸入帳號",
+		"fill_account": "請填寫帳號",
+		"email": "電子郵件",
+		"enter_email": "請輸入電子郵件",
+		"fill_email": "請填寫電子郵件",
+		"password": "密碼",
+		"enter_password": "請輸入密碼",
+		"fill_password": "請填寫密碼",
+		"confirm_password": "確認密碼",
+		"enter_confirm_password": "請再次輸入密碼",
+		"password_mismatch": "兩次輸入的密碼不一致",
+		"register": "註冊",
+		"register_success": "註冊成功"
+	},
+	"avatar_generator": {
+		"title": "卡通頭像生成器",
+		"subtitle": "上傳您的照片，生成專屬的卡通風格虛擬形象",
+		"step1_title": "第一步",
+		"step1_description": "上傳圖片",
+		"step2_title": "第二步",
+		"step2_description": "生成頭像",
+		"step3_title": "完成",
+		"step3_description": "下載頭像",
+		"upload_area_text": "點擊此處或拖曳圖片至此",
+		"supported_formats": "支援 JPG, PNG, WEBP 格式",
+		"original_image": "原始圖片",
+		"uploading_image": "圖片上傳中...",
+		"processing": "處理中...",
+		"ai_drawing": "AI 正在繪製中...",
+		"generation_successful": "生成成功",
+		"avatar_pending": "待生成頭像",
+		"select_image": "選擇圖片",
+		"reselect": "重新選擇",
+		"start_generation": "開始生成",
+		"try_again": "再試一次",
+		"download_avatar": "下載頭像",
+		"upload_image_file_please": "請上傳圖片檔案",
+		"avatar_generation_successful": "頭像生成成功！",
+		"generation_failed": "生成失敗，請稍後再試",
+		"starting_download": "開始下載..."
+	},
+	"volatile_asset": {
+		"strong_stocks": "強勢股",
+		"weak_stocks": "弱勢股"
+	},
+	"momentum_chart": {
+		"days_unit": "{count}天",
+		"title": "市場近{days}日動能"
+	},
+	"market_breadth": {
+		"title": "標普500漲跌佔整體百分比:",
+		"advancers": "上漲",
+		"decliners": "下跌"
+	},
+	"update_usd_form_popup": {
+		"update_title": "更新可用美金餘額",
+		"add_title": "新增可用美金餘額",
+		"usd_balance_label": "美金餘額",
+		"usd_balance_placeholder": "請輸入可用美金餘額",
+		"correct_format_required": "請輸入正確的金額格式",
+		"update_button": "更新",
+		"add_button": "新增",
+		"enter_balance_to_update": "請輸入要更新的餘額",
+		"update_success": "更新成功",
+		"add_success": "新增成功"
+	},
+	"transaction_form_popup": {
+		"update_holding": "更新持股"
+	},
+	"see_more": {
+		"text": "點我看更多"
+	},
+	"hot_companies": {
+		"explore_hot_companies": "探索熱門公司"
+	},
+	"about": {
+		"title": "關於此應用",
+		"description": "這是一個幫助您管理個人投資組合和分析市場數據的工具。",
+		"main_features": "主要功能：",
+		"feature1_title": "交易記錄與追蹤：",
+		"feature1_description": "輕鬆記錄您的每一筆股票、基金或其他投資工具的買賣操作。您可以隨時查看您的持倉情況、成本以及實現的盈虧。",
+		"feature2_title": "公司資訊查詢：",
+		"feature2_description": "提供上市公司的基本資料查詢，例如本益比（PE Ratio）、股價淨值比（PB Ratio）等關鍵財務指標，幫助您做出更明智的投資決策。",
+		"conclusion": "我們致力於提供一個簡單、直觀的界面，讓投資管理和市場分析變得更加輕鬆。"
+	}
+}
