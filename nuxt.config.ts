@@ -62,6 +62,9 @@ export default defineNuxtConfig({
 		//客戶端渲染 (CSR / SPA)
 		'/login': { ssr: false },
 		'/register': { ssr: false },
+		'/add-transaction': { ssr: false },
+		'/change-password': { ssr: false },
+		'/m7': { ssr: false },
 
 		// 每次請求都由伺服器即時渲染
 		'/': { ssr: true },
