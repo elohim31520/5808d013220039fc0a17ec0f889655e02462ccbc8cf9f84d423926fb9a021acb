@@ -67,8 +67,13 @@
 	import Waterfall from '@/components/Waterfall/index.vue'
 	import { useI18n } from 'vue-i18n'
 	import type { Transaction } from '@/types/transactions'
+	import auth from '../../middleware/auth'
 
 	const { t } = useI18n()
+
+	definePageMeta({
+		middleware: auth,
+	})
 
 	defineOptions({
 		name: 'records',
