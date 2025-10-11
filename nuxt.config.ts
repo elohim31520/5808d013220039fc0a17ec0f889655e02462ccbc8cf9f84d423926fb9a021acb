@@ -58,4 +58,14 @@ export default defineNuxtConfig({
 	nitro: {
 		preset: 'cloudflare_pages',
 	},
+	routeRules: {
+		//客戶端渲染 (CSR / SPA)
+		'/login': { ssr: false },
+		'/register': { ssr: false },
+
+		// 每次請求都由伺服器即時渲染
+		'/': { ssr: true },
+		'/post/**': { ssr: true },
+		'/posts': { ssr: true },
+	},
 })
