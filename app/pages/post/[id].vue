@@ -1,7 +1,8 @@
 <template>
-	<div class="post-con p-2">
+	<div class="post-con px-4">
 		<div v-if="fetchedPost">
 			<h2>{{ fetchedPost.title }}</h2>
+			<img :src="fetchedPost.image" :alt="fetchedPost.title" class="object-fit" />
 			<div v-html="fetchedPost.htmlContent"></div>
 		</div>
 		<div v-else>

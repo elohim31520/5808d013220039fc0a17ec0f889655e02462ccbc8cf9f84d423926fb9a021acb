@@ -59,7 +59,7 @@
 			label: 'footer.info',
 			defaultIcon: 'icon_message',
 			activeIcon: 'icon_message_a',
-			to: '/info',
+			to: '/posts',
 		},
 		{
 			name: 'my',

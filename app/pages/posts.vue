@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<ul v-if="fetchedPost && fetchedPost.length">
+		<ul v-if="fetchedPost && fetchedPost.length" class="mx-4">
 			<li v-for="post in fetchedPost" :key="post.id" class="mb-20">
 				<NuxtLink :to="`/post/${post.id}`">
 					<img :src="post.image" :alt="post.title" class="object-fit" />
