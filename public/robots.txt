@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+Disallow: /login
+
+Disallow: /register/
+
+Disallow: /change-password
+
+Disallow: /svg
+
+Disallow: /records
+
+Disallow: /404
+
+Disallow: /records
+
 Sitemap: https://urtrade.org/sitemap.xml
