@@ -8,7 +8,7 @@
 				v-for="company in companies"
 				:key="company.id"
 				@click="handleClick(company.id)"
-				class="group relative cursor-pointer overflow-hidden rounded-10 shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl"
+				class="group relative cursor-pointer overflow-hidden rounded-lg shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-2xl"
 			>
 				<img
 					:src="`/hot/${company.id}.webp`"

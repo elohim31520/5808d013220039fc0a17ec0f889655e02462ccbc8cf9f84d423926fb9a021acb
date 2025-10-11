@@ -1,5 +1,5 @@
 <template>
-	<div class="p-2 mx-2 font-sans leading-relaxed bg-white shadow-md rounded-10">
+	<div class="p-2 mx-2 font-sans leading-relaxed bg-white shadow-md rounded-lg">
 		<p class="text-gray-600 mb-4">{{ $t('about.description') }}</p>
 
 		<h2 class="text-lg my-4 mb-4 text-gray-800 border-b-2 border-gray-200 pb-2.5">

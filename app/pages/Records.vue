@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-gray-50">
-		<div class="mx-2 bg-white p-2 rounded-15 shadow-lg">
+		<div class="mx-2 bg-white p-2 rounded-2xl shadow-lg">
 			<h1 class="text-[24px] font-bold mb-2 text-gray-800">{{ $t('records.transaction_records') }}</h1>
 			<Waterfall ref="waterfallRef" :apiFunction="transactionApi.getAllTransactions">
 				<template #default="{ list }">
