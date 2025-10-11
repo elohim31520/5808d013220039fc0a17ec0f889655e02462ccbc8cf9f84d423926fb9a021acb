@@ -7,7 +7,7 @@
 		z-index="99"
 	>
 		<div class="pt-5">
-			<nav class="flex flex-col space-y-15">
+			<nav class="flex flex-col gap-y-2">
 				<template v-for="item in menuItems" :key="item.to">
 					<NuxtLink
 						v-if="

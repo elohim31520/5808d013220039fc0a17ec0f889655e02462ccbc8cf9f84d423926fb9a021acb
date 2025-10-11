@@ -1,13 +1,13 @@
 <template>
 	<ClientOnly>
 		<div class="p-1 bg-white rounded-lg shadow-primary">
-			<div class="flex justify-center space-x-10 my-5">
+			<div class="flex justify-center gap-5 my-5">
 				<div
 					v-for="day in timeRanges"
 					:key="day"
 					@click="fetchData(day)"
 					:class="[
-						'px-2 py-2 rounded-md w-50 text-center',
+						'px-2 py-2 rounded-md w-[3rem] text-center',
 						selectedDays === day ? 'bg-pink-400 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300',
 					]"
 				>

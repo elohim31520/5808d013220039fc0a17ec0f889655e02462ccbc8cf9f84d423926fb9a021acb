@@ -5,7 +5,9 @@
 			style="height: 3.75rem; width: 7rem"
 			@click="router.push('/')"
 		></div>
-		<div @click.prevent="uiStore.showMenu" class="p-2 ml-auto mr-2.5">></div>
+		<div @click.prevent="uiStore.showMenu" class="p-2 ml-auto mr-2.5">
+			<SvgIcon name="icon_button_Menu" size="2rem" />
+		</div>
 	</header>
 </template>
 
