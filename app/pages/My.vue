@@ -8,10 +8,13 @@
 			>
 				<div
 					class="bg-[url('/my/bg.webp')] bg-cover bg-center bg-no-repeat p-4 pt-[3rem] text-white transition-all duration-300 ease-in-out"
-					:class="isScrolled ? 'h-[3rem] pt-[5rem]' : 'h-[12rem] pt-[3rem]'"
+					:class="isScrolled ? 'h-[10rem] pt-[5rem]' : 'h-[16rem] pt-[3rem]'"
 				>
 					<!-- User Info -->
-					<div class="flex-y-center transition-all duration-300 ease-in-out" :class="{ '-translate-y-40': isScrolled }">
+					<div
+						class="flex-y-center transition-all duration-300 ease-in-out"
+						:class="{ '-translate-y-[2.5rem]': isScrolled }"
+					>
 						<div class="relative">
 							<img
 								:src="userStore.userInfo.picture"
@@ -21,12 +24,12 @@
 							/>
 						</div>
 
-						<div class="ml-12 flex-1 flex-col">
+						<div class="ml-3 flex-1 flex-col">
 							<div class="text-white">
 								<div class="flex items-center">
 									<span class="font-[500]">{{ userStore.userInfo.name }}</span>
 									<span
-										class="ml-5 bg-#FDE9FF text-#BA05C3 flex-y-center justify-center rounded-full font-[500] text-xs px-1 py-1"
+										class="ml-1 bg-#FDE9FF text-#BA05C3 flex-y-center justify-center rounded-full font-[500] text-xs px-1 py-1"
 									>
 										Lv.{{ userInfo.level }}
 									</span>
@@ -40,12 +43,12 @@
 							</div>
 
 							<!-- 持倉比例 -->
-							<div v-show="!isScrolled" class="flex-y-center transition-all duration-300 ease-in-out mt-17">
+							<div v-show="!isScrolled" class="flex-y-center gap-4 transition-all duration-300 ease-in-out mt-17">
 								<div class="flex flex-col">
 									<span class="font-[500]">{{ cashPercentage }}%</span>
 									<span class="text-#FAC9FF text-10">{{ $t('my.cash') }}</span>
 								</div>
-								<div class="flex-y-center flex-col ml-15">
+								<div class="flex-y-center flex-col">
 									<span class="font-[500]">{{ portfolioPercentage }}%</span>
 									<span class="text-#FAC9FF text-10">{{ $t('my.portfolio') }}</span>
 								</div>
@@ -54,15 +57,15 @@
 					</div>
 				</div>
 
-				<div class="transition-all duration-300 ease-in-out" :class="isScrolled ? '-mt-45' : '-mt-100'">
+				<div class="transition-all duration-300 ease-in-out" :class="isScrolled ? '-mt-[2rem]' : '-mt-[6.25rem]'">
 					<!-- Wallet Info -->
 					<div
 						class="flex-y-center justify-between transition-all duration-300 ease-in-out bg-white"
-						:class="isScrolled ? 'rounded-t-20 p-2' : 'rounded-full px-3 mx-2 py-9 mb-5'"
+						:class="isScrolled ? 'rounded-t-[1.25rem] p-1' : 'rounded-full px-1 mx-1 py-1'"
 					>
 						<div class="flex-y-center font-bold">
 							<SvgIcon class="text-pink-400" name="icon_dollar_fill" size="1.6rem" />
-							<span class="ml-5 font-[600] text-xl lh-20 text-pink-400">
+							<span class="ml-5 font-[600] text-xl text-pink-400">
 								{{ balanceStore.usdBalance }}
 							</span>
 							<SvgIcon class="text-pink-400 ml-5" name="icon_arrow_right" size="1rem" />
@@ -70,7 +73,7 @@
 						<div class="flex-y-center gap-2 text-white text-xs font-[500]">
 							<template v-if="userStore.isLogin">
 								<div
-									class="flex-y-center gap-3 bg-gradient-to-r from-[#FF9021] to-[#FFB60C] rounded-15 px-1 py-4"
+									class="flex-y-center gap-3 bg-gradient-to-r from-[#FF9021] to-[#FFB60C] rounded-2xl px-1 py-1"
 									@click="showUpdateUSDFormPopup = true"
 								>
 									<SvgIcon name="icon_redeem" size="1.2rem" color="#fff" />
@@ -78,7 +81,7 @@
 								</div>
 								<div
 									@click="$router.push('/change-password')"
-									class="flex-y-center gap-3 ml-5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-15 px-1 py-4"
+									class="flex-y-center gap-3 ml-5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl px-1 py-1"
 								>
 									<SvgIcon name="icon_room_w" size="1.2rem" />
 									{{ $t('my.change_password') }}
@@ -86,7 +89,7 @@
 							</template>
 							<template v-else>
 								<div
-									class="flex-y-center gap-3 bg-gradient-to-r from-[#E124AF] to-[#CC0EFB] rounded-15 px-1 py-4"
+									class="flex-y-center gap-3 bg-gradient-to-r from-[#E124AF] to-[#CC0EFB] rounded-2xl px-1 py-1"
 									@click="$router.push('/login')"
 								>
 									<SvgIcon name="icon_room_w" size="1.2rem" color="#fff" />
@@ -98,16 +101,18 @@
 				</div>
 			</div>
 
-			<div class="bg-white" :style="{ paddingTop: isScrolled ? headerHeight + 'px' : '0px' }">
-				<!-- My Portfolio -->
-				<div class="m-2 pt-5">
-					<h3 class="font-[500] mb-5 text-pink-400" v-if="userStore.isLogin">{{ $t('my.my_portfolio') }}</h3>
-					<h3 class="font-[500] mb-5 text-pink-400" v-else>{{ $t('my.login_to_create_portfolio') }}</h3>
-					<div class="w-full">
-						<PortfolioChart />
+			<ClientOnly>
+				<div class="bg-white" :style="{ paddingTop: isScrolled ? headerHeight + 'px' : '0px' }">
+					<!-- My Portfolio -->
+					<div class="m-2 pt-5">
+						<h3 class="font-[500] mb-1 text-pink-400" v-if="userStore.isLogin">{{ $t('my.my_portfolio') }}</h3>
+						<h3 class="font-[500] mb-1 text-pink-400" v-else>{{ $t('my.login_to_create_portfolio') }}</h3>
+						<div class="w-full">
+							<PortfolioChart />
+						</div>
 					</div>
 				</div>
-			</div>
+			</ClientOnly>
 		</div>
 
 		<UpdateUSDFormPopup v-model="showUpdateUSDFormPopup" />
@@ -163,7 +168,7 @@
 		if (newVal) {
 			await nextTick()
 			if (headerWrapper.value) {
-				headerHeight.value = headerWrapper.value.offsetHeight
+				headerHeight.value = headerWrapper.value.offsetHeight + 50
 			}
 		}
 	})

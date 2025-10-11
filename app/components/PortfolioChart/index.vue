@@ -1,5 +1,5 @@
 <template>
-	<div v-if="chartOptions" class="w-full h-450px">
+	<div v-if="chartOptions" class="w-full h-[450px]">
 		<v-chart :option="chartOptions" autoresize />
 	</div>
 	<div v-else class="text-center text-gray-500 pt-2">正在載入資料或無持股...</div>
