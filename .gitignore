@@ -26,3 +26,6 @@ logs
 .git
 
 todo.txt
+
+/blog
+/public/blog
